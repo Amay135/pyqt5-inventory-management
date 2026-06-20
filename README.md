@@ -18,7 +18,7 @@ pip install PyQt5
 ```
 
 ## Struktur File
-
+```
 ├── daftar.ui          # Desain UI untuk halaman registrasi (Qt Designer)
 ├── daftar.py          # Hasil konversi daftar.ui ke Python
 ├── login.ui           # Desain UI untuk halaman login (Qt Designer)
@@ -26,7 +26,7 @@ pip install PyQt5
 ├── mainlayout.ui      # Desain UI untuk halaman utama/tabel (Qt Designer)
 ├── mainlayout.py      # Hasil konversi mainlayout.ui ke Python
 └── main.py            # Alur logika utama aplikasi (Main Entry Point)
-
+```
 ## Catatan Pengembangan
 
 Aplikasi ini saat ini masih menggunakan penyimpanan berbasis memori (users_db), sehingga data akun dan barang akan ter-reset ketika aplikasi ditutup. Proyek ini sangat cocok dijadikan fondasi dasar bagi pemula yang ingin belajar PyQt5 sebelum dikembangkan lebih lanjut dengan integrasi database permanen seperti SQLite atau MySQL.
